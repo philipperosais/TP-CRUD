@@ -1,0 +1,40 @@
+body a,
+a:hover {
+    text-decoration: none;
+    color          : grey;
+}
+
+label,
+#headTab {
+    font-weight: bold;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* Extra small devices & Small devices */
+@media (max-width: 767px) {
+    #studentList .row {
+        font-size: 0.6em;
+    }
+}
+
+/* Medium devices */
+@media (min-width: 768px) {
+    #studentList .row {
+        font-size: 0.8em;
+    }
+}
+
+/* Large devices */
+@media (min-width: 992px) {
+    #studentList .row {
+        font-size: 1em;
+    }
+}
+
+/* Extra large devices */
+@media (min-width: 1200px) {
+    #studentList .row {
+        font-size: 1.2em;
+    }
+}

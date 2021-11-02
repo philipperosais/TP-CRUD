@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Gestion des étudiants</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="TP CRUD Gestion des étudiants" />
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Style-CSS -->
+    <link rel="stylesheet" href="css/index.css" type="text/css" media="all" />
+</head>
+
+<body>
+    <div class="container">
+        <form method="post" action="" class="bg-secondary bg-gradient mt-3 p-4" style="--bs-bg-opacity: .1;">
+            <div class="row">
+                <div class="col-lg-6 col-12 mb-3">
+                    <label for="firstname" class="form-label firstname">Prénom</label>
+                    <input type=text" class="form-control" id="firstname" placeholder="Prénom">
+                </div>
+                <div class="col-lg-6 col-12 mb-3">
+                    <label for="lastname" class="form-label lastname">Nom</label>
+                    <input type="text" class="form-control" id="lastname" placeholder="Nom">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-12 mb-3">
+                    <label for="email" class="form-label email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="col-lg-6 col-12 mb-3">
+                    <label for="phone" class="form-label phone">Téléphone</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="Téléphone">
+                </div>
+            </div>
+            <button type="button" class="btn btn-secondary" id="submit">Ajouter</button>
+        </form>
+        <div class="container-fluid px-3" id="studentList">
+            <div class="row border-bottom border-2 mt-4">
+                <h2>Liste des étudiants</h2>
+            </div>
+            <div class="row border-bottom border-1" id="headTab">
+                <div class="col-1">Id</div>
+                <div class="col-2">Firstname</div>
+                <div class="col-2">Lastname</div>
+                <div class="col-3">Email</div>
+                <div class="col-2">Phone</div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Font -->
+    <script src="js/fontawesome.min.js"></script>
+    <script src="js/solid.min.js"></script>
+    <script src="js/regular.min.js"></script>
+    <!-- //Font -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
